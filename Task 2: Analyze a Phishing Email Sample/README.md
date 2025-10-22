@@ -1,7 +1,7 @@
 # Phishing Email Analysis - Task 2
 
 This repository contains a safe sample phishing email and its analysis.  
-All analysis is based on a fake `.eml` file (`phish-sample.eml`). **No real malware is included.**  
+All analysis is based on a fake `.eml` file . **No real malware is included.**  
 
 ---
 
