@@ -59,5 +59,3 @@ All analysis is based on a fake `.eml` file (`phish-sample.eml`). **No real malw
 ---
 
 
-- Evidence screenshots, headers, and URL analysis are stored in the `evidence/` folder.  
-
