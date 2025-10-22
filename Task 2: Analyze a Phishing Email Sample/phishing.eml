@@ -1,0 +1,82 @@
+Return-Path: <bounce@secure-bankalerts.com>
+Received: from mail84-17.prod-example[84.17.23.45] (helo=mail84-17.prod-example)
+    by mx.yourmailprovider.example with esmtp (Exim 4.94)
+    id 1a2b3c-0001Xy-4G; Wed, 22 Oct 2025 09:34:12 +0530
+Received-SPF: fail (example: domain of secure-bankalerts.com does not designate 84.17.23.45 as permitted sender) client-ip=84.17.23.45;
+Authentication-Results: mx.yourmailprovider.example;
+    spf=fail (sender IP is not authorized) smtp.mailfrom=bounce@secure-bankalerts.com;
+    dkim=none;
+    dmarc=none;
+MIME-Version: 1.0
+From: "Account Security Team" <support@secure-bankalerts.com>
+Reply-To: "Account Verification" <verify@secure-bankalerts.com>
+To: Recipient Name <victim.user@example.com>
+Subject: Important: Immediate Action Required — Verify Your Account Now
+Date: Wed, 22 Oct 2025 09:33:58 +0530
+Message-ID: <20251022093358.1a2b3c@example.com>
+Content-Type: multipart/mixed; boundary="==BOUNDARY_MAIN=="
+X-Mailer: PHishMail v2.1
+
+--==BOUNDARY_MAIN==
+Content-Type: multipart/alternative; boundary="==BOUNDARY_ALT=="
+
+--==BOUNDARY_ALT==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Dear Customer,
+
+We have detected unusal activity on your account and, as a security measure, your account was suspanded until verification is completed.
+
+To restore access immediately, please visit the following secure verification page and complete the 2-step validation within 24 hours:
+
+Displayed link: https://www.bankofamerica.com/security-update
+Real link: http://secure-login-update.info/boa
+
+Failure to verify within 24 hours will result in permanent account closure.
+
+If you did not request this verification, contact our support team immediately by replying to this email.
+
+Thank you,
+Account Security Team
+Secure Bank Alerts
+
+--==BOUNDARY_ALT==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <p>Dear Customer,</p>
+
+    <p><strong>We have detected <em>unusal</em> activity on your account</strong> and, as a security measure, your account has been <strong>suspanded</strong>.</p>
+
+    <p>To restore access <strong>immediately</strong>, please click the link below and complete the 2-step verification within <strong>24 hours</strong>:</p>
+
+    <p>
+      <!-- Displayed URL looks legitimate, actual href goes to attacker domain -->
+      <a href="http://secure-login-update.info/boa" target="_blank" rel="noopener">
+        https://www.bankofamerica.com/security-update
+      </a>
+    </p>
+
+    <p><em>Failure to verify within 24 hours will result in permanent account closure.</em></p>
+
+    <p>If you did not request this verification, reply to this message or contact support.</p>
+
+    <p>Regards,<br/>Account Security Team<br/>Secure Bank Alerts</p>
+
+    <hr/>
+    <small>Security Notice: This message was sent by Secure Bank Alerts. For your protection, do not share your password.</small>
+  </body>
+</html>
+
+--==BOUNDARY_ALT==--
+
+--==BOUNDARY_MAIN==
+Content-Type: application/octet-stream; name="Account_Verify.docx"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Account_Verify.docx"
+
+[ATTACHMENT NOT INCLUDED - placeholder only: filename shown for analysis purposes]
+--==BOUNDARY_MAIN==--
