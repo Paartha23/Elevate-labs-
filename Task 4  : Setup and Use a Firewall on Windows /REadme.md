@@ -50,7 +50,7 @@ telnet localhost 23
 ```
 
 **How the Firewall filters traffic**
-1.A firewall works like a security guard that checks every piece of data trying to enter or leave your computer. It decides what’s safe and what’s not based on a set of rules created by the user or the system. These rules act as filters that control network traffic, protecting your device from unwanted or harmful connections.
+A firewall works like a security guard that checks every piece of data trying to enter or leave your computer. It decides what’s safe and what’s not based on a set of rules created by the user or the system. These rules act as filters that control network traffic, protecting your device from unwanted or harmful connections.
 
 When data moves across a network, it travels in small packets. The firewall examines each packet’s source address, destination address, port number, and protocol to decide whether it should be allowed or blocked.
 
