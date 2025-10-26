@@ -43,7 +43,7 @@ The goal is to demonstrate how firewall rules can be used to allow or block spec
    ```cmd
    telnet localhost 23
 
-###**Commands used**
+**Commands used for completing the task**
 1.For making sure it is blocked after creating the Inbound rule 
 ```cmd
 telnet localhost 23
