@@ -54,11 +54,11 @@ telnet localhost 23
 
 When data moves across a network, it travels in small packets. The firewall examines each packet’s source address, destination address, port number, and protocol to decide whether it should be allowed or blocked.
 
-2.1. Traffic Inspection
+**Traffic Inspection**
 
 Every packet that reaches your computer is inspected by the firewall. It checks where the packet is coming from, where it’s going, and what service or port it’s trying to use. For example, if a packet is trying to use port 23 (Telnet), and a rule exists to block that port, the firewall will immediately stop it.
 
-🔸 2. Rule Matching
+**Rule Matching**
 
 Firewalls operate based on a list of rules. Each rule defines conditions for allowing or blocking traffic.
 
@@ -68,13 +68,13 @@ If it matches a deny rule (like Telnet on port 23), it’s blocked right away.
 
 If it doesn’t match any rule, the firewall applies its default policy (usually “deny all incoming traffic”).
 
-🔸 3. Inbound and Outbound Filtering
+ **Inbound and Outbound Filtering**
 
 Inbound filtering controls data coming into your computer. It protects your system from unauthorized users or malware trying to connect.
 
 Outbound filtering manages data leaving your computer. It prevents malicious software from sending information to the internet.
 
-🔸 4. Profiles and Context
+**Profiles and Context**
 
 Firewalls can apply different rules depending on where you are connected:
 
@@ -86,7 +86,7 @@ Public network: open Wi-Fi or café networks, where stricter blocking is applied
 
 This ensures the right level of protection depending on your environment.
 
-🔸 5. Logging and Monitoring
+**Logging and Monitoring**
 
 Most firewalls log their activity. These logs help users or administrators see which connections were allowed or blocked, making it easier to spot unusual or suspicious activity.
 
