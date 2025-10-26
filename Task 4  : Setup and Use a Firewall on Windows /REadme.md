@@ -49,7 +49,7 @@ The goal is to demonstrate how firewall rules can be used to allow or block spec
 telnet localhost 23
 ```
 
-###**How the Firewall filters traffic**
+**How the Firewall filters traffic**
 1.A firewall works like a security guard that checks every piece of data trying to enter or leave your computer. It decides what’s safe and what’s not based on a set of rules created by the user or the system. These rules act as filters that control network traffic, protecting your device from unwanted or harmful connections.
 
 When data moves across a network, it travels in small packets. The firewall examines each packet’s source address, destination address, port number, and protocol to decide whether it should be allowed or blocked.
@@ -91,5 +91,4 @@ This ensures the right level of protection depending on your environment.
 Most firewalls log their activity. These logs help users or administrators see which connections were allowed or blocked, making it easier to spot unusual or suspicious activity.
 
 
-   ```cmd
-   telnet localhost 23
+
