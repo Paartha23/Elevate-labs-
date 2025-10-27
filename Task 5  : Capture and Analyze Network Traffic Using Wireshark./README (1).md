@@ -1,4 +1,4 @@
-# 🧾 Wireshark Packet Capture and Analysis
+#  Wireshark Packet Capture and Analysis
 
 ##  Overview
 This task demonstrates how to capture, analyze, and interpret network packets using **Wireshark**, a popular open-source network protocol analyzer.  
@@ -84,6 +84,6 @@ The task enhanced understanding of network behavior, data encapsulation, and rea
 
 ---
 
-## 💾 Files Included
+## Files Included
 - **Task5.pcapng** → Captured packet file containing DNS, TCP, and HTTP/HTTPS packets.  
 - **README.md** → Documentation explaining steps, analysis, and conclusions.
