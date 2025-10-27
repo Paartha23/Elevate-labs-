@@ -1,12 +1,12 @@
 # 🧾 Wireshark Packet Capture and Analysis
 
-## 📘 Overview
+##  Overview
 This task demonstrates how to capture, analyze, and interpret network packets using **Wireshark**, a popular open-source network protocol analyzer.  
 The objective is to observe real-time network traffic, identify common communication protocols, and understand their roles in the data transmission process.
 
 ---
 
-## 🎯 Objective
+##  Objective
 - To capture network traffic using Wireshark.  
 - To filter and analyze packets by protocol type.  
 - To identify at least three different protocols observed during the capture.  
@@ -14,14 +14,14 @@ The objective is to observe real-time network traffic, identify common communica
 
 ---
 
-## 🧰 Tools Used
+## Tools Used
 - **Wireshark** (latest version)
 - **Web Browser (Google Chrome / Firefox)**
 - **Command Prompt / Terminal**
 
 ---
 
-## ⚙️ Steps Performed
+##  Steps Performed
 
 ### Step 1: Install Wireshark
 - Download Wireshark from the official website: [https://www.wireshark.org](https://www.wireshark.org)
@@ -41,7 +41,7 @@ The objective is to observe real-time network traffic, identify common communica
 - This generates network traffic for analysis.
 
 ### Step 4: Stop Capture
-- After about **one minute**, click the **red square button** in Wireshark to stop the capture.
+- Stop capturing packets
 
 ### Step 5: Filter Packets by Protocol
 Use Wireshark’s **Display Filter Bar** to view specific protocol packets:
@@ -63,11 +63,11 @@ During normal web browsing and ping operations, the following protocols are usua
 
 ### Step 7: Export the Capture
 - Go to **File → Export Specified Packets**.  
-- Save the file as `NetworkCapture.pcap` or `Task5.pcapng` for later analysis.
+- Save the file 
 
 ---
 
-## 📊 Summary of Findings
+##  Summary of Findings
 During the analysis, three primary protocols were identified:
 1. **DNS:** Responsible for converting human-readable domain names to IP addresses.  
 2. **TCP:** Used to establish reliable connections between devices.  
@@ -77,7 +77,7 @@ Other supporting protocols such as **ARP** and **ICMP** were also observed, show
 
 ---
 
-## 📄 Conclusion
+##  Conclusion
 This experiment successfully demonstrated how network data travels between client and server systems.  
 Wireshark provided a clear visualization of packet exchange, showing how different protocols interact within the TCP/IP stack.  
 The task enhanced understanding of network behavior, data encapsulation, and real-time protocol operations.
