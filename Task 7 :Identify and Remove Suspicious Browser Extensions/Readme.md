@@ -38,6 +38,6 @@ After analyzing my browser’s installed extensions, I performed the following a
 
 ---
 
-✅ **Conclusion:**  
+**Conclusion:**  
 Regularly auditing browser extensions helps maintain both **security** and **performance**. Only trusted and necessary extensions should remain installed to reduce exposure to malicious activity.
 
